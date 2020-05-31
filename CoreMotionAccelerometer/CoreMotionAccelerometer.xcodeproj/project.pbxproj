@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14DB6682483D5DB004D9E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DB6672483D5DB004D9E1B /* AppDelegate.swift */; };
+		E14DB66A2483D5DB004D9E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DB6692483D5DB004D9E1B /* SceneDelegate.swift */; };
+		E14DB66C2483D5DB004D9E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DB66B2483D5DB004D9E1B /* ViewController.swift */; };
+		E14DB66F2483D5DB004D9E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14DB66D2483D5DB004D9E1B /* Main.storyboard */; };
+		E14DB6712483D5DC004D9E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14DB6702483D5DC004D9E1B /* Assets.xcassets */; };
+		E14DB6742483D5DC004D9E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14DB6722483D5DC004D9E1B /* LaunchScreen.storyboard */; };
+		E14DB67F2483D5DC004D9E1B /* CoreMotionAccelerometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DB67E2483D5DC004D9E1B /* CoreMotionAccelerometerTests.swift */; };
+		E14DB68A2483D5DC004D9E1B /* CoreMotionAccelerometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DB6892483D5DC004D9E1B /* CoreMotionAccelerometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E14DB67B2483D5DC004D9E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14DB65C2483D5DB004D9E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14DB6632483D5DB004D9E1B;
+			remoteInfo = CoreMotionAccelerometer;
+		};
+		E14DB6862483D5DC004D9E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E14DB65C2483D5DB004D9E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14DB6632483D5DB004D9E1B;
+			remoteInfo = CoreMotionAccelerometer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E14DB6642483D5DB004D9E1B /* CoreMotionAccelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionAccelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14DB6672483D5DB004D9E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E14DB6692483D5DB004D9E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E14DB66B2483D5DB004D9E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E14DB66E2483D5DB004D9E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E14DB6702483D5DC004D9E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E14DB6732483D5DC004D9E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E14DB6752483D5DC004D9E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14DB67A2483D5DC004D9E1B /* CoreMotionAccelerometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionAccelerometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14DB67E2483D5DC004D9E1B /* CoreMotionAccelerometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionAccelerometerTests.swift; sourceTree = "<group>"; };
+		E14DB6802483D5DC004D9E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14DB6852483D5DC004D9E1B /* CoreMotionAccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMotionAccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14DB6892483D5DC004D9E1B /* CoreMotionAccelerometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMotionAccelerometerUITests.swift; sourceTree = "<group>"; };
+		E14DB68B2483D5DC004D9E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14DB6612483D5DB004D9E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14DB6772483D5DC004D9E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14DB6822483D5DC004D9E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E14DB65B2483D5DB004D9E1B = {
+			isa = PBXGroup;
+			children = (
+				E14DB6662483D5DB004D9E1B /* CoreMotionAccelerometer */,
+				E14DB67D2483D5DC004D9E1B /* CoreMotionAccelerometerTests */,
+				E14DB6882483D5DC004D9E1B /* CoreMotionAccelerometerUITests */,
+				E14DB6652483D5DB004D9E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E14DB6652483D5DB004D9E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E14DB6642483D5DB004D9E1B /* CoreMotionAccelerometer.app */,
+				E14DB67A2483D5DC004D9E1B /* CoreMotionAccelerometerTests.xctest */,
+				E14DB6852483D5DC004D9E1B /* CoreMotionAccelerometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E14DB6662483D5DB004D9E1B /* CoreMotionAccelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				E14DB6672483D5DB004D9E1B /* AppDelegate.swift */,
+				E14DB6692483D5DB004D9E1B /* SceneDelegate.swift */,
+				E14DB66B2483D5DB004D9E1B /* ViewController.swift */,
+				E14DB66D2483D5DB004D9E1B /* Main.storyboard */,
+				E14DB6702483D5DC004D9E1B /* Assets.xcassets */,
+				E14DB6722483D5DC004D9E1B /* LaunchScreen.storyboard */,
+				E14DB6752483D5DC004D9E1B /* Info.plist */,
+			);
+			path = CoreMotionAccelerometer;
+			sourceTree = "<group>";
+		};
+		E14DB67D2483D5DC004D9E1B /* CoreMotionAccelerometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E14DB67E2483D5DC004D9E1B /* CoreMotionAccelerometerTests.swift */,
+				E14DB6802483D5DC004D9E1B /* Info.plist */,
+			);
+			path = CoreMotionAccelerometerTests;
+			sourceTree = "<group>";
+		};
+		E14DB6882483D5DC004D9E1B /* CoreMotionAccelerometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E14DB6892483D5DC004D9E1B /* CoreMotionAccelerometerUITests.swift */,
+				E14DB68B2483D5DC004D9E1B /* Info.plist */,
+			);
+			path = CoreMotionAccelerometerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E14DB6632483D5DB004D9E1B /* CoreMotionAccelerometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14DB68E2483D5DC004D9E1B /* Build configuration list for PBXNativeTarget "CoreMotionAccelerometer" */;
+			buildPhases = (
+				E14DB6602483D5DB004D9E1B /* Sources */,
+				E14DB6612483D5DB004D9E1B /* Frameworks */,
+				E14DB6622483D5DB004D9E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMotionAccelerometer;
+			productName = CoreMotionAccelerometer;
+			productReference = E14DB6642483D5DB004D9E1B /* CoreMotionAccelerometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E14DB6792483D5DC004D9E1B /* CoreMotionAccelerometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14DB6912483D5DC004D9E1B /* Build configuration list for PBXNativeTarget "CoreMotionAccelerometerTests" */;
+			buildPhases = (
+				E14DB6762483D5DC004D9E1B /* Sources */,
+				E14DB6772483D5DC004D9E1B /* Frameworks */,
+				E14DB6782483D5DC004D9E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14DB67C2483D5DC004D9E1B /* PBXTargetDependency */,
+			);
+			name = CoreMotionAccelerometerTests;
+			productName = CoreMotionAccelerometerTests;
+			productReference = E14DB67A2483D5DC004D9E1B /* CoreMotionAccelerometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E14DB6842483D5DC004D9E1B /* CoreMotionAccelerometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E14DB6942483D5DC004D9E1B /* Build configuration list for PBXNativeTarget "CoreMotionAccelerometerUITests" */;
+			buildPhases = (
+				E14DB6812483D5DC004D9E1B /* Sources */,
+				E14DB6822483D5DC004D9E1B /* Frameworks */,
+				E14DB6832483D5DC004D9E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E14DB6872483D5DC004D9E1B /* PBXTargetDependency */,
+			);
+			name = CoreMotionAccelerometerUITests;
+			productName = CoreMotionAccelerometerUITests;
+			productReference = E14DB6852483D5DC004D9E1B /* CoreMotionAccelerometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E14DB65C2483D5DB004D9E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Andreas Oscar Olsson";
+				TargetAttributes = {
+					E14DB6632483D5DB004D9E1B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E14DB6792483D5DC004D9E1B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E14DB6632483D5DB004D9E1B;
+					};
+					E14DB6842483D5DC004D9E1B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E14DB6632483D5DB004D9E1B;
+					};
+				};
+			};
+			buildConfigurationList = E14DB65F2483D5DB004D9E1B /* Build configuration list for PBXProject "CoreMotionAccelerometer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E14DB65B2483D5DB004D9E1B;
+			productRefGroup = E14DB6652483D5DB004D9E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E14DB6632483D5DB004D9E1B /* CoreMotionAccelerometer */,
+				E14DB6792483D5DC004D9E1B /* CoreMotionAccelerometerTests */,
+				E14DB6842483D5DC004D9E1B /* CoreMotionAccelerometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E14DB6622483D5DB004D9E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14DB6742483D5DC004D9E1B /* LaunchScreen.storyboard in Resources */,
+				E14DB6712483D5DC004D9E1B /* Assets.xcassets in Resources */,
+				E14DB66F2483D5DB004D9E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14DB6782483D5DC004D9E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14DB6832483D5DC004D9E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E14DB6602483D5DB004D9E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14DB66C2483D5DB004D9E1B /* ViewController.swift in Sources */,
+				E14DB6682483D5DB004D9E1B /* AppDelegate.swift in Sources */,
+				E14DB66A2483D5DB004D9E1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14DB6762483D5DC004D9E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14DB67F2483D5DC004D9E1B /* CoreMotionAccelerometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14DB6812483D5DC004D9E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14DB68A2483D5DC004D9E1B /* CoreMotionAccelerometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E14DB67C2483D5DC004D9E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14DB6632483D5DB004D9E1B /* CoreMotionAccelerometer */;
+			targetProxy = E14DB67B2483D5DC004D9E1B /* PBXContainerItemProxy */;
+		};
+		E14DB6872483D5DC004D9E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14DB6632483D5DB004D9E1B /* CoreMotionAccelerometer */;
+			targetProxy = E14DB6862483D5DC004D9E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E14DB66D2483D5DB004D9E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14DB66E2483D5DB004D9E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E14DB6722483D5DC004D9E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E14DB6732483D5DC004D9E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E14DB68C2483D5DC004D9E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E14DB68D2483D5DC004D9E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E14DB68F2483D5DC004D9E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K6SA3M6LF;
+				INFOPLIST_FILE = CoreMotionAccelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.CoreMotionAccelerometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E14DB6902483D5DC004D9E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K6SA3M6LF;
+				INFOPLIST_FILE = CoreMotionAccelerometer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.CoreMotionAccelerometer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E14DB6922483D5DC004D9E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K6SA3M6LF;
+				INFOPLIST_FILE = CoreMotionAccelerometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.CoreMotionAccelerometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionAccelerometer.app/CoreMotionAccelerometer";
+			};
+			name = Debug;
+		};
+		E14DB6932483D5DC004D9E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K6SA3M6LF;
+				INFOPLIST_FILE = CoreMotionAccelerometerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.CoreMotionAccelerometerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMotionAccelerometer.app/CoreMotionAccelerometer";
+			};
+			name = Release;
+		};
+		E14DB6952483D5DC004D9E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K6SA3M6LF;
+				INFOPLIST_FILE = CoreMotionAccelerometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.CoreMotionAccelerometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreMotionAccelerometer;
+			};
+			name = Debug;
+		};
+		E14DB6962483D5DC004D9E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9K6SA3M6LF;
+				INFOPLIST_FILE = CoreMotionAccelerometerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asd.CoreMotionAccelerometerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoreMotionAccelerometer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E14DB65F2483D5DB004D9E1B /* Build configuration list for PBXProject "CoreMotionAccelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14DB68C2483D5DC004D9E1B /* Debug */,
+				E14DB68D2483D5DC004D9E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14DB68E2483D5DC004D9E1B /* Build configuration list for PBXNativeTarget "CoreMotionAccelerometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14DB68F2483D5DC004D9E1B /* Debug */,
+				E14DB6902483D5DC004D9E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14DB6912483D5DC004D9E1B /* Build configuration list for PBXNativeTarget "CoreMotionAccelerometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14DB6922483D5DC004D9E1B /* Debug */,
+				E14DB6932483D5DC004D9E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E14DB6942483D5DC004D9E1B /* Build configuration list for PBXNativeTarget "CoreMotionAccelerometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E14DB6952483D5DC004D9E1B /* Debug */,
+				E14DB6962483D5DC004D9E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E14DB65C2483D5DB004D9E1B /* Project object */;
+}
